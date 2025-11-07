@@ -1,14 +1,19 @@
-function App(){
+import Navbar from "src/components/Navbar";
+import Home from "src/components/Home";
+import About from "src/components/About";
+import Projects from"src/components/Projects";
+import Contact from "src/components/Contacts";
 
+function App() {
   return (
-
-    <div  className ="h-screen flex items-center justify-center bg-gray-500">
-      <h1 className = "text-4xl font-bold text-white">
-        Hello, I'm <span className= "font-bold text-blue-200"> Jasbir </span> 
-      </h1>
+    <div className="scroll-smooth">
+      <Navbar />
+      <Home />
+      <About />
+      <Projects />
+      <Contact />
     </div>
-
   );
 }
 
-export default App; 
+export default App;
