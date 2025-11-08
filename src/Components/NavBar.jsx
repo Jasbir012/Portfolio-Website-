@@ -8,7 +8,7 @@ function Navbar() {
   return (
     <nav className="bg-gray-900 text-white fixed w-full top-0 left-0 shadow-md z-50">
       <div className="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
-        <h1 className="text-2xl font-bold text-blue-400">NightMare</h1>
+        <h1 className="text-2xl font-bold text-blue-400">Jasbir</h1>
 
         {/* Desktop Menu */}
         <ul className="hidden md:flex space-x-8">
@@ -30,7 +30,7 @@ function Navbar() {
           <li><a href="#home" onClick={toggleMenu} className="block hover:text-blue-400">Home</a></li>
           <li><a href="#about" onClick={toggleMenu} className="block hover:text-blue-400">About</a></li>
           <li><a href="#projects" onClick={toggleMenu} className="block hover:text-blue-400">Projects</a></li>
-          <li><a href="#contact" onClick={toggleMenu} className="block hover:text-blue-400">Contact</a></li>
+          <li><a href="#contact" onClick={toggleMenu} className="block hover:text-blue-400">Contacts</a></li>
         </ul>
       )}
     </nav>
