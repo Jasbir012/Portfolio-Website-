@@ -27,17 +27,14 @@ function Contact() {
 
       {/* Contact Form */}
       <motion.form
-        action="https://formsubmit.co/el/ditozo"
+        action="https://api.web3forms.com/submit"
         method="POST"
         className="bg-gray-900 rounded-xl p-8 shadow-lg w-full max-w-lg border border-gray-700"
         initial={{ opacity: 0, y: 30 }}
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.6 }}
       >
-        {/* Hidden FormSubmit field (prevents spam) */}
-        <input type="hidden" name="_captcha" value="false" />
-        <input type="hidden" name="_template" value="table" />
-
+         <input type="hidden" name="access_key" value="890b0301-b79d-4c03-8027-48437a617961" />
         {/* Name */}
         <div className="mb-4">
           <label className="block mb-2 text-gray-300">Name</label>
