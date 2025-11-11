@@ -15,9 +15,9 @@ function Projects() {
       title: "Task-Tracker",
       description:
         "This isn’t your usual boring to-do list. Progress Tracker turns your daily goals into quests, your completed tasks into achievements, and your day into a level to conquer. Stay consistent, earn XP, and watch your progress grow, because life’s better when productivity feels like a game.",
-      image: "assets/TaskTracker1.png",
+      image: "assets/UserTasks.png",
       github: "https://github.com/Jasbir012/Task-Tracker",
-      demo: "",
+      demo: "https://nightmare1n.itch.io/tracker",
     },
    
     {title: "Luna-AI",
