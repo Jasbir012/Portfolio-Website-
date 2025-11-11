@@ -29,7 +29,7 @@ function Projects() {
 
     {title: "Expense-tracker",
       description:"A simple and efficient Expense Tracker built with Python and SQLite, allowing users to add, view, and manage their spending with local data storage.",
-      image:"assets/expense.png",
+      image:"assets/Expense Tracker.png",
       github:"https://github.com/Jasbir012/Expenses-Tracker-",
       demo:"",
     },
