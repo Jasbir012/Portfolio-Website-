@@ -43,7 +43,7 @@ function Projects() {
 
      {
       title: "ActionRpg",
-      description:"",
+      description:"Dive into a vast, hand-crafted world where every battle tests your skill and every choice shapes your destiny. Explore ancient ruins, forge powerful weapons, and face relentless enemies in fast-paced, real-time combat. Your journey will determine the fate of a realm on the edge of collapse.",
       image: "",
       github: "",
       demo: "",
