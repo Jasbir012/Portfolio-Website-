@@ -3,14 +3,7 @@ import { motion } from "framer-motion";
 
 function Projects() {
   const projects = [
-    {
-      title: "🌾 Farming RPG",
-      description:
-        "A cozy farming RPG inspired by Stardew Valley. Built in Unity using C# and custom sprite animations. Features farming, crafting, and NPC interactions.",
-      image: "https://i.pinimg.com/736x/78/c9/af/78c9afb287ed2e89c9eda13e96ee094c.jpg",
-      github: "https://github.com/Jasbir012/FarmingRPG",
-      demo: "",
-    },
+    
     {
       title: "Task-Tracker",
       description:
@@ -44,7 +37,7 @@ function Projects() {
      {
       title: "ActionRpg",
       description:"Dive into a vast, hand-crafted world where every battle tests your skill and every choice shapes your destiny. Explore ancient ruins, forge powerful weapons, and face relentless enemies in fast-paced, real-time combat. Your journey will determine the fate of a realm on the edge of collapse.",
-      image: "",
+      image: "assets/ActionRPg.png",
       github: "",
       demo: "",
     },
